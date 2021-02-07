@@ -9,12 +9,24 @@
 body
 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #68a4ff;
     user-select: none;
     -webkit-user-select: none;
+}
+
+.title
+{
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: #0005;
+    color: #fff;
+    font-family: monospace;
 }
 
 .clock
