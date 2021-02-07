@@ -12,14 +12,18 @@ body
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     background: #68a4ff;
     user-select: none;
     -webkit-user-select: none;
+    position: relative;
 }
 
 .title
 {
+    position: sticky;
+    bottom: 0;
+    right: 0;
     padding: 10px 20px;
     margin: 10px 0;
     border-radius: 5px;
