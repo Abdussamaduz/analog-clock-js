@@ -1,3 +1,18 @@
+
+setInterval(() => {
+    let vaqt = new Date();
+    let hour = vaqt.getHours();
+    let minute = vaqt.getMinutes();
+    let second = vaqt.getSeconds();
+    
+    let dateNow = `${hour} : ${minute} : ${second}`
+    
+    let timeElement = document.querySelector(".time")
+    timeElement.textContent = dateNow;
+    
+}, 1000);
+
+
 const deg = 6;
 const hr = document.querySelector("#hr");
 const mn = document.querySelector("#mn");
@@ -13,3 +28,4 @@ setInterval(() => {
     sc.style.transform =  `rotateZ(${ss}deg)`;
     
 });
+
