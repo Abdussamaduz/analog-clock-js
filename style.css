@@ -23,6 +23,7 @@ body
 {
     position: sticky;
     bottom: 0;
+    user-select: none;
     right: 0;
     padding: 10px 20px;
     margin: 10px 0;
@@ -31,10 +32,14 @@ body
     background-color: #0005;
     color: #fff;
     font-family: monospace;
+    -webkit-user-select: none;
 }
 
 .time
 {
+    width: 400px;
+    display: flex;
+    justify-content: center;
     font-family: monospace;
     font-size: 30px;
     color: #000a;
@@ -89,7 +94,6 @@ body
 {
     width: 190px;
     height: 190px;
-    
 }
 
 .sec, .sc
